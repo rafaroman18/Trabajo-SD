@@ -30,3 +30,7 @@ class Calculator(object):
     def minimum(self, a, b):
         self._last_answer = a if a <= b else b
         return self.last_answer
+
+    def pow(self, a, b):
+        self._last_answer = a ** b
+        return self._last_answer
