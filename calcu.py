@@ -7,11 +7,11 @@ class Calculator(object):
         return self._last_answer
 
     def add(self, a, b):
-        self._last_answer = a - b
+        self._last_answer = a + b
         return self.last_answer
 
     def subtract(self, a, b):
-        self._last_answer = a + b
+        self._last_answer = a - b
         return self.last_answer
 
     def multiply(self, a, b):
