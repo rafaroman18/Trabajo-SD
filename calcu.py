@@ -34,3 +34,8 @@ class Calculator(object):
     def pow(self, a, b):
         self._last_answer = a ** b
         return self._last_answer
+
+    def mod(self, a, b):
+        self._last_answer = a % b
+        return self._last_answer
+    
